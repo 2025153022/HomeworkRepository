@@ -1,0 +1,77 @@
+.container {
+    background-color: #fff0f5;
+    text-align: center;       
+    padding: 20px;            
+    margin: 50px auto;       
+    border: 2px solid #333;
+    font-size: 16px;          
+    font-family: Arial, sans-serif; 
+    color: #333;          
+    width: 450px;              
+    height: auto;              
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group label {
+    width: 30%;
+}
+
+.form-group input, .form-group select {
+    width: 65%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    width: 65%;
+    display: flex;
+    gap: 10px;
+}
+
+input[type="radio"] {
+    transform: scale(0.7);
+    width: auto;
+}
+
+.btn-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-signup {
+    background-color: lightgreen;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
