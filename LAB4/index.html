@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Movie Site</title>
+
+<link
+rel="stylesheet"
+href="main.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>
+인프밍 영화 정보 사이트입니다.
+</h1>
+
+<nav>
+
+<a href="index.html">
+메인페이지
+</a>
+
+<a href="login.html">
+로그인
+</a>
+
+<a href="signup.html">
+회원가입
+</a>
+
+</nav>
+
+
+<div class="search">
+
+<input
+id="keyword"
+placeholder="영화 제목 검색">
+
+<button
+onclick="searchMovie()">
+
+Filter results
+
+</button>
+
+</div>
+
+
+<div class="sort">
+
+<h3>정렬</h3>
+
+<label>
+<input
+type="radio"
+name="sort"
+onclick="sortMovie('ratingDesc')">
+
+평점 높은순
+</label>
+
+
+<label>
+
+<input
+type="radio"
+name="sort"
+onclick="sortMovie('ratingAsc')">
+
+평점 낮은순
+
+</label>
+
+
+<label>
+
+<input
+type="radio"
+name="sort"
+onclick="sortMovie('dateDesc')">
+
+최신순
+
+</label>
+
+
+<label>
+
+<input
+type="radio"
+name="sort"
+onclick="sortMovie('dateAsc')">
+
+오래된순
+
+</label>
+
+</div>
+
+
+<h2>
+Movies
+</h2>
+
+
+<div id="movie-list">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
